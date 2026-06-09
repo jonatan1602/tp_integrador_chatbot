@@ -13,8 +13,8 @@ Generar tickets automáticamente.
 Escalar incidencias a soporte humano.
 Tecnologías utilizadas
 Python 3
-CSV para persistencia
-Git / GitHub
+Archivos CSV para persistencia de datos
+Git y GitHub
 Máquina de estados
 Archivos del proyecto
 main.py → lógica principal del chatbot.
@@ -22,15 +22,17 @@ usuarios.csv → usuarios registrados.
 soluciones.csv → base de conocimiento.
 tickets.csv → almacenamiento de incidencias.
 Cómo ejecutar
-Descargar el repositorio.
-Abrir terminal dentro del proyecto.
+Descargar o clonar el repositorio.
+Abrir una terminal dentro de la carpeta del proyecto.
+
 Ejecutar:
 
 python main.py
 
 Funcionalidades implementadas
 Máquina de estados.
-Reintentos ante errores.
-Gestión de incidencias.
-Generación incremental de tickets.
-Escalamiento de soporte.
+Validación de usuarios.
+Consulta de soluciones frecuentes.
+Generación automática de tickets.
+Escalamiento a soporte humano.
+Manejo de errores y reintentos.
